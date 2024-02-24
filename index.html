@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-    
+
     </head>
 
     <body>
@@ -26,6 +26,7 @@
         </header>
         <div class="hero">
             <div class="hero-text">
+
                 <p class="first">Unlimited movies, TV shows and more</p>
                 <p class="sec">Watch Anywhere. Cancel Anytime.</p>
                 <p class="third">Ready to watch? Enter your email to create or restart your membership.
@@ -47,14 +48,22 @@
                 </p>
 
             </div>
+            <div class="sec-pos">
+                <img src="pic1.png" alt="">
+            </div>
             <hr />
         </div>
         <div class="sec-pos-outer add-eff">
+
             <div class="sec-pos float-eff">
                 <p class="first">Download your shows to watch offline</p>
                 <p class="sec">Save your favourites easily and always have something to watch. </p>
 
             </div>
+            <div class="sec-pos">
+                <img src="pic2.png" alt="">
+            </div>
+
             <hr />
         </div>
         <div class="sec-pos-outer add-eff">
@@ -62,6 +71,9 @@
                 <p class="first">Watch everywhere</p>
                 <p class="sec">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV. </p>
 
+            </div>
+            <div class="sec-pos">
+                <img src="pic3.png" alt="">
             </div>
             <hr />
         </div>
@@ -73,6 +85,9 @@
                     them—free with your membership.</p>
 
             </div>
+            <div class="sec-pos">
+                <img src="pic4.png" alt="">
+            </div>
             <hr />
         </div>
         <div class="sec-pos-outer">
@@ -81,9 +96,13 @@
                 <div class="acc-list">
                     <button class="accordion">What is Netflix?</button>
                     <div class="panel">
-                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
-<br/><br/>
-                            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week! </div>
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                            anime, documentaries and more – on thousands of internet-connected devices.
+                            <br /><br />
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low
+                            monthly price. There's always something new to discover, and new TV shows and movies are
+                            added every week!
+                    </div>
 
                     <button class="accordion">Section 2</button>
                     <div class="panel">
@@ -131,64 +150,65 @@
 
             </div>
 
-            
+
             <hr />
         </div>
         <footer>
 
-          <div class="outer">
-           
-            <div class="link-container">
-                  <div class="link-list">
-                    
-                    <a>FAQ</a>
-                    <a>Media Centre</a>
-                    <a>Ways to Watch</a>
-                    <a>Cookie Preferences</a>
-                    <a>Speed Test</a>
+            <div class="outer">
+
+                <div class="link-container">
+                    <div class="link-list">
+
+                        <a>FAQ</a>
+                        <a>Media Centre</a>
+                        <a>Ways to Watch</a>
+                        <a>Cookie Preferences</a>
+                        <a>Speed Test</a>
+                    </div>
+                    <div class="link-list">
+                        <a>FAQ</a>
+                        <a>Media Centre</a>
+                        <a>Ways to Watch</a>
+                        <a>Cookie Preferences</a>
+                        <a>Speed Test</a>
+                    </div>
+                    <div class="link-list">
+                        <a>FAQ</a>
+                        <a>Media Centre</a>
+                        <a>Ways to Watch</a>
+                        <a>Cookie Preferences</a>
+                        <a>Speed Test</a>
+                    </div>
                 </div>
-                <div class="link-list">
-                    <a>FAQ</a>
-                    <a>Media Centre</a>
-                    <a>Ways to Watch</a>
-                    <a>Cookie Preferences</a>
-                    <a>Speed Test</a>
+                <div class="inner">
+                    <p>Questions? Call <a>000-800-919-1694</a></p><br />
                 </div>
-                <div class="link-list">
-                    <a>FAQ</a>
-                    <a>Media Centre</a>
-                    <a>Ways to Watch</a>
-                    <a>Cookie Preferences</a>
-                    <a>Speed Test</a>
+                <div class="inner">
+                    <select class="select">
+                        <option>English</option>
+                    </select>
+                </div>
+                <div class="inner">
+                    <p>Netflix India</p><br />
                 </div>
             </div>
-            <div class="inner">
-                <p>Questions? Call <a>000-800-919-1694</a></p><br/>
-            </div>
-            <div class="inner">
-                <select class="select">
-                    <option>English</option>
-                </select>   </div>
-            <div class="inner">
-                <p>Netflix India</p><br/>
-            </div>
-        </div>
         </footer>
         <script>
             var acc = document.getElementsByClassName("accordion");
             var i;
-            
+
             for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
             }
-            </script>
+        </script>
     </body>
 </htnl>
